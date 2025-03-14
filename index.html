@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dynamic Image Gallery</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Dynamic Image Gallery</h1>
+        <p>Explore a collection of stunning images that automatically load from your disk.</p>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery-container">
+        <div class="gallery" id="gallery">
+            <!-- Images will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <!-- Modal/Lightbox for Viewing Images -->
+    <div id="modal" class="modal">
+        <span id="close-modal" class="close-btn">&times;</span>
+        <div class="modal-content">
+            <img id="modal-image" src="" alt="" class="modal-image">
+            <div id="modal-caption" class="modal-caption"></div>
+            <button id="prev" class="nav-btn">&#10094;</button>
+            <button id="next" class="nav-btn">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Dynamic Image Gallery. All Rights Reserved.</p>
+        <p>Images loaded dynamically from your disk.</p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
