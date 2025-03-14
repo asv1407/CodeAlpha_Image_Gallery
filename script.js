@@ -9,12 +9,12 @@ const nextBtn = document.getElementById('next');
 
 let currentIndex = 0;
 let images = [
-    { src: '/images/image1.jpg', caption: 'Beautiful Sunset over the Ocean' },
-    { src: '/images/image2.jpg', caption: 'A Peaceful Forest Landscape' },
-    { src: '/images/image3.jpg', caption: 'Snowy Mountains in the Distance' }, // Fixed the missing quote here
-    { src: '/images/image4.jpg', caption: 'Sunset Behind Tall Skyscrapers' }
-    // Add more images here if needed
+    { src: 'https://raw.githubusercontent.com/asv1407/CodeAlpha_Image_Gallery/main/images/image1.jpg', caption: 'Beautiful Sunset over the Ocean' },
+    { src: 'https://raw.githubusercontent.com/asv1407/CodeAlpha_Image_Gallery/main/images/image2.jpg', caption: 'A Peaceful Forest Landscape' },
+    { src: 'https://raw.githubusercontent.com/asv1407/CodeAlpha_Image_Gallery/main/images/image3.jpg', caption: 'Snowy Mountains in the Distance' },
+    { src: 'https://raw.githubusercontent.com/asv1407/CodeAlpha_Image_Gallery/main/images/image4.jpg', caption: 'Sunset Behind Tall Skyscrapers' }
 ];
+
 
 // Function to render images in the gallery
 function renderGallery() {
