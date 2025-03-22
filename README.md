@@ -18,7 +18,7 @@ It is a simple yet interactive **Image Gallery** where users can view and naviga
 - Hover effects & animations  
 
 ## 🚀 Live Demo  
-[🔗 GitHub Pages Link (If Hosted)](#)
+[🔗 GitHub Pages Link (If Hosted)](#https://wwwashishtech.github.io/Image_Gallery/)
 
 ## 📂 Project Setup  
 1. Clone the repository:  
