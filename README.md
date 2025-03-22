@@ -1,11 +1,10 @@
-#  Image Gallery 🖼️
+# Image Gallery 🖼️
 
 A simple and interactive image gallery built with HTML, CSS, and JavaScript. Users can browse through a collection of images with smooth navigation.
 
-
 ## 📌 Overview
-This project was developed as part of my **Frontend Development Internship**   
-It is a simple yet interactive **Image Gallery** where users can view and navigate through a collection of images.  
+This project was developed as part of my **Frontend Development Internship**.  
+It is a simple yet interactive **Image Gallery** where users can view and navigate through a collection of images.
 
 ## 🛠 Technologies Used
 - HTML  
@@ -18,7 +17,7 @@ It is a simple yet interactive **Image Gallery** where users can view and naviga
 - Hover effects & animations  
 
 ## 🚀 Live Demo  
-[🔗 GitHub Pages Link (If Hosted)](#https://wwwashishtech.github.io/Image_Gallery/)
+[🔗 GitHub Pages Link](https://wwwashishtech.github.io/Image_Gallery/)
 
 ## 📂 Project Setup  
 1. Clone the repository:  
